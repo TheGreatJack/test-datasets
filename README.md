@@ -807,7 +807,7 @@ The earth sciences folder contain subfolders for different data formats encounte
   - limulus_polyphemus
     - illumina
       - bam
-        - msp_[0..9].bam: bam files generated from simulated rad-seq illumina libraries, aligned against chr26 of limulus polyphemus
+        - msp_[0..9].bam: bam files generated from simulated rad-seq illumina libraries, aligned against chr26 of limulus polyphemus (NCBI acc: CM106026)
     - popmap.tsv: File with arbitrary association of bam samples to populations. Required to run stacks
   - deilephila_porcellus
     - mito
