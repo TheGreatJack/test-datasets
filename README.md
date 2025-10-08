@@ -26,6 +26,7 @@ The genomics folder contains subfolders for all organisms for which test data is
 - deilephila_porcellus (mitochondrion)
 - escherichia_coli
 - galaxea_fascicularis
+- limulus_polyphemus
 - haemophilus_influenzae
 - homo_sapiens
 - plasmodium_falciparum
@@ -803,6 +804,11 @@ The earth sciences folder contain subfolders for different data formats encounte
   - galaxea_fascicularis
     - hic
       - 'jaGalFasc40_2.pretext': sparse data pretext map of hic contacts
+  - limulus_polyphemus
+    - illumina
+      - bam
+        - msp_[0..9].bam: bam files generated from simulated rad-seq illumina libraries, aligned against chr26 of limulus polyphemus
+    - popmap.tsv: File with arbitrary association of bam samples to populations. Required to run stacks
   - deilephila_porcellus
     - mito
       - 'ilDeiPorc1.contigs.fa': test dataset for mitochondrial contigs for Deilephila porcellus
